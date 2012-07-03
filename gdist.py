@@ -4,7 +4,6 @@
 gdist.py
 
 Created by Li Qian on 2012-07-02.
-Copyright (c) 2012 Li Qian. All rights reserved.
 """
 
 import sys
