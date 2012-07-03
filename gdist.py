@@ -19,7 +19,7 @@ gdist.py [ -h ] [ -v ] [ -i indir ] [ -o outdir ] [ -f file ] [ -r reference ]
 -h (--help) This help message
 -v Verbose mode
 -i (--indir) Assign the input directory (default ./)
--o (--outdir) Assign the output directory (default ./gdist)
+-o (--outdir) Assign the output directory (optional)
 -f (--file) Assign the output file for mapping JSON (default ./gdist.json)
 -r (--reference) Assign the reference mapping JSON for incremental update. Only files with digests different from the reference JSON are copied.
 '''

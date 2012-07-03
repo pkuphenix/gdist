@@ -14,7 +14,7 @@ This small utility will recursively traverse a directory, compute MD5 digest for
 * **-h**   Help message
 * **-v**   Verbose mode
 * **-i**   Assign the input directory (default ./)
-* **-o**   Assign the output directory (default ./gdist)
+* **-o**   Assign the output directory (optional)
 * **-f**   Assign the output file for mapping JSON (default ./gdist.json)
 * **-r**   Assign the reference mapping JSON for incremental update. Only files 
  with digests different from the reference JSON are copied.
