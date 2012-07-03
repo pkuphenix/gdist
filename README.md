@@ -1,7 +1,7 @@
 ## Introduction
 "gdist" means "game distribution". This util is created for easily distribute multi-depth resource files
- into a single directory with changed file names which contains a digest of the file content itself. Incremental
- update is supported based on the digests. It's useful for manage and distribute resources for C/S online games.
+ into a single directory with changed file names which contains a digest of the file content itself. **Incremental
+ update** is supported based on the digests. It's useful for manage and distribute resources for C/S online games.
  
 This small utility will recursively traverse a directory, compute MD5 digest for all containing files
  and then copy them to an single output directory. The mappings from the original file pathes (relative)
